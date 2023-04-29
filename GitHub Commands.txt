@@ -1,0 +1,70 @@
+- git config --global user.name "username" -------> for providing your details
+- git config --global user.email "abc@gmail.com"--------> for providing your details
+- git init -------> for initializing git or making git folder
+- git status --------> for checking the git status
+- git add . ----------> for adding all files placed in a folder into git for tracking
+- git add fileName1.txt  ----------> for adding only files whose names are given into git for tracking
+- git add *.txt ----------> for adding all files with .txt extensions into git for tracking
+- git commit -m 'comment changes here' ---------> for keep track of changes you have done
+- git log ----------> to see previous history of your repository
+- git reset --------> for reseting from stage to non stage work but work will remain there
+- git reset --hard --------> for reseting from stage to non stage work with all the work
+- git pull ----- used to pull the changes
+
+command to authenticate the user for pushing the code in the remote repo
+
+- git remote set-url origin <repolink>
+eg:
+git remote set-url origin https://<token@>github.com/Ebad-uddin/js-saylani.git
+
+
+
+
+Branches	
+
+- git branch ----------> show list of branches
+- git branch-v --------> show list of branches with some details
+- git branch new-dev ---------> creates new branch with name 'new-proj'
+- git branch -d <branch name> ----------> to delete specific local branch.
+- git branch -dr <repoName/branchName> ---------> to delete remote branch (but only delete from our PC not from github).
+- git push <repoName> --delete <branchName> -------> to delete remote branch from github
+
+- git checkout new-dev -------> switch to 'new-proj' branch
+- q --------> for quit
+- git log branchName1...branchName2 ------> to see the difference in the branch
+- git merge branchName ----------> to merge one branch with another branch
+- git stash ---------> save local changes to stash clipboard.
+- git stash save <name> ----------> save local changes in stash clipboard with the name provided in the command.
+- git stash list -----------> show list of stashes
+- git stash pop ----------> apply last stash and remove from clipboard
+- git stash apply <stashname> ---------> apply specific stash and that stash will remain saved in clipboard.
+- git clone <url> ---------> for cloning remote repo.
+- git push ----------> for sending local repo to the remote repo
+- git fetch ---------> for fetching data from remote repo (but changes not apply automatically you have to merge both repo)
+- git pull ----------> for fetching data from remote repo (no need to merge repo)
+- git remote add <name> <url> ----------> for connecting local repo with the remote repo
+- git push -u <repo name> <branch name> --------> for pushing already existing local repo with remote repo
+- git log <remote/branch> ---------> show logs for the remote repo and branch.
+- git remote -v --------> to see which remote repo is connected with our local repo
+- git remote add <remote repo name> <remote repo url> ---------> to connect local repo with remote repo
+- git remote show <remote repo name> -------> for showing remote repo url from which we are connected
+
+
+
+
+
+
+
+
+Note: 
+for remote command it is convention to use "orgin" as a branch name
+and for fork remote command it is convention to use "upstream" as a branch name
+
+
+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
+
+
+
+
+
+
